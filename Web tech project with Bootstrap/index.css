@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}/*.mydiv{
+    background-color: #293462;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    color:cornsilk;
+}*/
+body{
+    background-color: black;
+    background-position: 50px;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: black;
+}
+/*.menubar{
+    background-color: #227C70;
+    text-align: left;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.menubar ul li{
+    width:120px;
+    margin:15px;
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li a:hover{
+    color:yellow;
+}
+.active,.menubar ul li:hover{
+    background-color: #EB6440;
+    border-radius: 20px;
+}
+.sub-menu1{
+    display: none;
+}
+.menubar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: #EB6440;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align:left;
+}
+
+.bottom_div{
+    position: absolute;
+    background-color: #576F72;
+    width: 1280px;
+    height: 60px;
+    text-align: center;
+    bottom: 0px;
+    height: 100px;
+}
+.bottom_div a{
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+
+}*/
+.search-form{
+    margin-top:17px;
+    float:right;
+    margin-right: 50px;
+    padding:5px;
+}
+input[type=text]
+{
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+button{
+    float: right;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position:relative;
+    padding: 9px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    color: white;
+    margin-left: 2rem;
+}
+ col h1{
+    color: #576F72;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:0.5s;
+}
+.card1{
+    background-image: url(vegetable.jpg.jpg);
+}
+.card2{
+    background-image: url(fruits.jpg.jpg);
+}
+.card3{
+    background-image: url(snacks.jpg.jpg);
+}
+.card4{
+    background-image: url(masala.jpg.jpg);
+}
+.color{
+    color: #fff;
+}
+.color1{
+    color: black;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login/register form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://kit.fontawesome.com/a1e12ec97b.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="signup.css" >
+        <script src="signup_validation.js"></script>
+    </head>
+    <body>
+        <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+            <header>SignUp</header>
+
+
+            <form class="form-group" action="#" name="signupform" method="post" onsubmit="return Signup_validation()" id="signup-form">
+                <div class="field input-field">
+                    <input type="text" placeholder="Username" class="form-control" name="username">
+                </div>
+                <div class="field input-field">
+                    <input type="email" placeholder="Email" class="form-control" autocomplete="on" autofocus="on" required>
+                </div>
+                <div class="field input-field">
+                    <input type="password" placeholder="Password" class="form-control" name="password"><i class="fa-regular fa-eye-slash eye-icon"></i>
+                </div>
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be atleast 10 characters that allows alphabets including upper and lower cases and digits 
+                </div>
+                <div class="field input-field">
+                    <input type="password" placeholder="Confirm Password" class="form-control" name="password1"><i class="fa-regular fa-eye-slash eye-icon"></i>
+                </div>
+                <div class="field input-field">
+                    <input type="text" placeholder="Address" class="form-control">
+                </div>
+                <div class="field input-field">
+                    <input type="tel" placeholder="MobileNumber" class="form-control" name="phnum">
+                </div>
+                <br>
+                <div class="row">
+                <h4>Gender</h4>
+                <div class="col-md-4">
+                    <input type="radio" name="feed" class="pointer" >&nbsp;&nbsp;<label>Male</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" name="feed">&nbsp;&nbsp;<label>Female</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" name="feed">&nbsp;&nbsp;<label>Prefer Not to say</label>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                <input type="submit"  class="sign btn btn-success btn-md col-md-4 col-md-offset-1" id="submit" formaction="http://localhost:3000/save">
+                <input type="reset"  class="clear btn btn-primary btn-md col-md-4 col-md-offset-2" id="reset">
+                </div>
+                <div class="form-link">
+                    Already have an account?<a href="login1.html" class="login-link">Login</a>
+                </div>
+                <div class="line"></div>
+
+
+
+                <div class="media-options">
+                    <a href="https://www.google.com/" class="field facebook">
+                    <i class="fa-brands fa-google"></i>
+                    <span> Login with Google</span>
+                    </a>
+                </div>
+            </form>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
